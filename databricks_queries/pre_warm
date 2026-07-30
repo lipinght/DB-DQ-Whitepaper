@@ -1,0 +1,9 @@
+CACHE Select * from date_dim;
+CACHE Select * from store_sales;
+CACHE Select * from catalog_sales;
+CACHE Select * from promotion;
+CACHE Select * from ship_mode;
+CACHE Select * from store;
+CACHE Select * from customer_demographics;
+CACHE Select * from customer_address;
+CACHE Select * from catalog_page;
