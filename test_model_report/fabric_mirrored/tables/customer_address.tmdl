@@ -1,0 +1,74 @@
+/// Customer address dimension containing geographic information for billing and shipping addresses.
+table customer_address
+	lineageTag: 75246b34-d9f4-46fd-813f-bc5f0e47ab8c
+	sourceLineageTag: [dbo].[customer_address]
+
+	/// Customer address surrogate key - unique identifier for each address.
+	column ca_address_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9084b5d7-d188-4fb9-9c92-211d5b68f397
+		sourceLineageTag: ca_address_sk
+		summarizeBy: none
+		sourceColumn: ca_address_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// City name for the customer address.
+	column ca_city
+		dataType: string
+		lineageTag: 03b2fb94-a08c-4010-9157-b91edcb60daf
+		sourceLineageTag: ca_city
+		summarizeBy: none
+		sourceColumn: ca_city
+
+		annotation SummarizationSetBy = Automatic
+
+	/// County name for the customer address.
+	column ca_county
+		dataType: string
+		lineageTag: 0ef7c0d6-1e17-42c5-a9bb-fb014c91398a
+		sourceLineageTag: ca_county
+		summarizeBy: none
+		sourceColumn: ca_county
+
+		annotation SummarizationSetBy = Automatic
+
+	/// State or province for the customer address.
+	column ca_state
+		dataType: string
+		lineageTag: 24c6ee20-e4ab-4ca3-aa30-934ba66a55db
+		sourceLineageTag: ca_state
+		summarizeBy: none
+		sourceColumn: ca_state
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Postal code for the customer address.
+	column ca_zip
+		dataType: string
+		lineageTag: a57bf4fe-e3de-4848-81bd-e71dd885c99f
+		sourceLineageTag: ca_zip
+		summarizeBy: none
+		sourceColumn: ca_zip
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Type of location (e.g., residential, commercial).
+	column ca_location_type
+		dataType: string
+		lineageTag: 9a90fb17-4314-40df-84ae-071cdd4eb3c7
+		sourceLineageTag: ca_location_type
+		summarizeBy: none
+		sourceColumn: ca_location_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition customer_address = entity
+		mode: directLake
+		source
+			entityName: customer_address
+			schemaName: tpcds_sf10_nlc
+			expressionSource: 'DirectLake - tpcds_sf1'
+

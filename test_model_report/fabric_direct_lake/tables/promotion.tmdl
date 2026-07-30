@@ -1,0 +1,58 @@
+/// Promotion dimension containing promotional campaign details including costs and promotional names.
+table promotion
+	lineageTag: 5942c68a-d07a-4a23-8864-b2c733be46c8
+	sourceLineageTag: [dbo].[promotion]
+
+	/// Promotion surrogate key - unique identifier for each promotional campaign.
+	column p_promo_sk
+		dataType: int64
+		formatString: 0
+		lineageTag: 0299ca0a-f58f-4ebe-b752-ffa6b63f9760
+		sourceLineageTag: p_promo_sk
+		summarizeBy: none
+		sourceColumn: p_promo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to item dimension (for item-specific promotions).
+	column p_item_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 92f8bc42-df79-4a35-8a37-10a02a937c40
+		sourceLineageTag: p_item_sk
+		summarizeBy: sum
+		sourceColumn: p_item_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Cost associated with running this promotional campaign.
+	column p_cost
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: c42871df-1b39-4b1e-83cb-142e6864a1e0
+		sourceLineageTag: p_cost
+		summarizeBy: none
+		sourceColumn: p_cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Name or title of the promotional campaign.
+	column p_promo_name
+		dataType: string
+		lineageTag: 6ceed2f6-4e12-4edc-b161-8251a356ec17
+		sourceLineageTag: p_promo_name
+		summarizeBy: none
+		sourceColumn: p_promo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition promotion = entity
+		mode: directLake
+		source
+			entityName: promotion
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

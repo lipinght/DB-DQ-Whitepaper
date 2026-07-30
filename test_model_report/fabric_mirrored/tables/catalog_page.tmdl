@@ -1,0 +1,34 @@
+/// Catalog page dimension containing information about catalog pages used in catalog sales campaigns.
+table catalog_page
+	lineageTag: b4e5474e-8b18-42b8-9a56-9c2416950a0a
+	sourceLineageTag: [dbo].[catalog_page]
+
+	/// Catalog page surrogate key - unique identifier for each catalog page.
+	column cp_catalog_page_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 71a9dba7-e582-461e-b8de-f37322137084
+		sourceLineageTag: cp_catalog_page_sk
+		summarizeBy: none
+		sourceColumn: cp_catalog_page_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Type or category of the catalog page.
+	column cp_type
+		dataType: string
+		lineageTag: bdf42608-dc88-489d-90ce-24a87bc40378
+		sourceLineageTag: cp_type
+		summarizeBy: none
+		sourceColumn: cp_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition catalog_page = entity
+		mode: directLake
+		source
+			entityName: catalog_page
+			schemaName: tpcds_sf10_nlc
+			expressionSource: 'DirectLake - tpcds_sf1'
+

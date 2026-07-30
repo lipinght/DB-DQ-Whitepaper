@@ -1,0 +1,11 @@
+expression 'DirectLake - tpcds_sf1' = ```
+		let
+		    Source = AzureStorage.DataLake("https://onelake.dfs.fabric.microsoft.com/XXXXXXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXX", [HierarchicalNavigation=true])
+		in
+		    Source
+		
+		```
+	lineageTag: c6e3390d-cc84-4e13-ab93-53308a346336
+
+	annotation PBI_IncludeFutureArtifacts = False
+

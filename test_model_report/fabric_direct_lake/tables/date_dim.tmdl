@@ -1,0 +1,114 @@
+/// Date dimension providing calendar hierarchy with year, quarter, month, and day-of-week attributes for time-based analysis.
+table date_dim
+	lineageTag: 9e7ec2de-382c-4a3b-9589-1ece445bfa27
+	sourceLineageTag: [dbo].[date_dim]
+
+	/// Date surrogate key - unique identifier for each calendar date.
+	column d_date_sk_1
+		dataType: int64
+		formatString: 0
+		lineageTag: 63841738-6970-46ac-8106-970384b1052b
+		sourceLineageTag: d_date_sk_1
+		summarizeBy: none
+		sourceColumn: d_date_sk_1
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Calendar date value.
+	column d_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: dc08a5e6-1a30-4d5f-9b03-1c98c7bac892
+		sourceLineageTag: d_date
+		summarizeBy: none
+		sourceColumn: d_date
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Calendar year (e.g., 2023).
+	column d_year
+		dataType: int64
+		formatString: 0
+		lineageTag: fcf4b9e9-c880-4ee0-907c-3a18951b0809
+		sourceLineageTag: d_year
+		summarizeBy: none
+		sourceColumn: d_year
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Day of week (1=Sunday, 7=Saturday).
+	column d_dow
+		dataType: int64
+		formatString: 0
+		lineageTag: 339ac74d-ab31-4d4e-93eb-524b9f7e211c
+		sourceLineageTag: d_dow
+		summarizeBy: none
+		sourceColumn: d_dow
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Month of year (1-12).
+	column d_moy
+		dataType: int64
+		formatString: 0
+		lineageTag: faa3deb0-9def-4334-bd42-a1b9d60b51b7
+		sourceLineageTag: d_moy
+		summarizeBy: none
+		sourceColumn: d_moy
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Day of month (1-31).
+	column d_dom
+		dataType: int64
+		formatString: 0
+		lineageTag: 83cd6ebd-7811-4616-a884-9930f66f8bfe
+		sourceLineageTag: d_dom
+		summarizeBy: none
+		sourceColumn: d_dom
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Quarter of year (1-4).
+	column d_qoy
+		dataType: int64
+		formatString: 0
+		lineageTag: 4962ee0a-fcb9-4bf8-a5c7-43a66a94e67f
+		sourceLineageTag: d_qoy
+		summarizeBy: none
+		sourceColumn: d_qoy
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Quarter name (e.g., 'Q1 2023').
+	column d_quarter_name
+		dataType: string
+		lineageTag: 2426fa03-107c-4f51-a0b4-c59bb4b85d4f
+		sourceLineageTag: d_quarter_name
+		summarizeBy: none
+		sourceColumn: d_quarter_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition date_dim = entity
+		mode: directLake
+		source
+			entityName: date_dim
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+
+	calendar tpcds_calendar
+		lineageTag: dd529b7a-99fe-4cb5-928c-df1abed499f1
+
+		calendarColumnGroup = year
+			primaryColumn: d_year
+
+		calendarColumnGroup = quarter
+			primaryColumn: d_quarter_name
+
+		calendarColumnGroup = quarterOfYear
+			primaryColumn: d_qoy
+
+		calendarColumnGroup = date
+			primaryColumn: d_date
+

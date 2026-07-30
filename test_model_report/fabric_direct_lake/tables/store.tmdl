@@ -1,0 +1,106 @@
+/// Store dimension containing retail location information including geographic details, management, and tax rates.
+table store
+	lineageTag: 6835d4a1-f40a-40aa-8a65-98aa4e06a406
+	sourceLineageTag: [dbo].[store]
+
+	/// Store surrogate key - unique identifier for each store location.
+	column s_store_sk
+		dataType: int64
+		formatString: 0
+		lineageTag: 14502476-8801-4068-b7c4-875ce7cac939
+		sourceLineageTag: s_store_sk
+		summarizeBy: none
+		sourceColumn: s_store_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Store name or identifier for the retail location.
+	column s_store_name
+		dataType: string
+		lineageTag: 4e78d335-4974-4d41-8402-ea89f63f9005
+		sourceLineageTag: s_store_name
+		summarizeBy: none
+		sourceColumn: s_store_name
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the store manager.
+	column s_manager
+		dataType: string
+		lineageTag: 3a8ddb5b-2ada-42d0-9ef9-89cd96b435b6
+		sourceLineageTag: s_manager
+		summarizeBy: none
+		sourceColumn: s_manager
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Name of the market manager overseeing this store.
+	column s_market_manager
+		dataType: string
+		lineageTag: 37c8562d-3ab6-47ad-9b99-2ad1d72e6cd6
+		sourceLineageTag: s_market_manager
+		summarizeBy: none
+		sourceColumn: s_market_manager
+
+		annotation SummarizationSetBy = Automatic
+
+	/// City where the store is located.
+	column s_city
+		dataType: string
+		lineageTag: a1a9209c-8194-4f96-8e94-69e545e064ba
+		sourceLineageTag: s_city
+		summarizeBy: none
+		sourceColumn: s_city
+
+		annotation SummarizationSetBy = Automatic
+
+	/// County where the store is located.
+	column s_county
+		dataType: string
+		lineageTag: e219113c-fe81-45b0-b6be-f02e7ce75403
+		sourceLineageTag: s_county
+		summarizeBy: none
+		sourceColumn: s_county
+
+		annotation SummarizationSetBy = Automatic
+
+	/// State or province where the store is located.
+	column s_state
+		dataType: string
+		lineageTag: fbaeba14-56ed-496d-a004-83f851771750
+		sourceLineageTag: s_state
+		summarizeBy: none
+		sourceColumn: s_state
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Postal code for the store location.
+	column s_zip
+		dataType: string
+		lineageTag: 44e7ea79-56d6-4d20-8243-92c35919dcc3
+		sourceLineageTag: s_zip
+		summarizeBy: none
+		sourceColumn: s_zip
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tax rate percentage applied at this store location.
+	column s_tax_percentage
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: ba6d903d-f426-46b7-90a8-756a18261f2a
+		sourceLineageTag: s_tax_percentage
+		summarizeBy: none
+		sourceColumn: s_tax_percentage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	partition store = entity
+		mode: directLake
+		source
+			entityName: store
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

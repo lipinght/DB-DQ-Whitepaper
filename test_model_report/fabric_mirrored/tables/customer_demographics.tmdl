@@ -1,0 +1,44 @@
+/// Customer demographics dimension containing education status and marital status attributes for customer segmentation.
+table customer_demographics
+	lineageTag: 52f8f268-90f3-4f40-a527-07a74d9e9baf
+	sourceLineageTag: [dbo].[customer_demographics]
+
+	/// Customer demographics surrogate key - unique identifier for each demographic profile.
+	column cd_demo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d2cad4d0-4a88-41ab-b7ee-94ab73973694
+		sourceLineageTag: cd_demo_sk
+		summarizeBy: none
+		sourceColumn: cd_demo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Marital status of the customer.
+	column cd_marital_status
+		dataType: string
+		lineageTag: e29a3681-2c0d-4579-9b35-5112d86c0f46
+		sourceLineageTag: cd_marital_status
+		summarizeBy: none
+		sourceColumn: cd_marital_status
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Education level of the customer.
+	column cd_education_status
+		dataType: string
+		lineageTag: 43260b21-0847-455f-a853-e2233af2a62e
+		sourceLineageTag: cd_education_status
+		summarizeBy: none
+		sourceColumn: cd_education_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition customer_demographics = entity
+		mode: directLake
+		source
+			entityName: customer_demographics
+			schemaName: tpcds_sf10_nlc
+			expressionSource: 'DirectLake - tpcds_sf1'
+

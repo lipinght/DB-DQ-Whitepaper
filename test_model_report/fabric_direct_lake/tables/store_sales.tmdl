@@ -1,0 +1,206 @@
+/// Fact table containing retail store sales transactions with pricing, quantities, profits, and foreign keys to related dimensions.
+table store_sales
+	lineageTag: 6c7a2caf-3c22-4f38-a6aa-895a77e2e1c9
+	sourceLineageTag: [dbo].[store_sales]
+
+	/// Foreign key to date dimension for sale date.
+	column ss_sold_date_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4e30d94a-216f-4eaf-9858-fb22c6e6d57e
+		sourceLineageTag: ss_sold_date_sk
+		summarizeBy: sum
+		sourceColumn: ss_sold_date_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to item dimension.
+	column ss_item_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2b151014-7df5-45f0-9907-03cbe191952b
+		sourceLineageTag: ss_item_sk
+		summarizeBy: sum
+		sourceColumn: ss_item_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Customer surrogate key for the transaction.
+	column ss_customer_sk
+		dataType: int64
+		formatString: 0
+		lineageTag: 558da56d-ea73-4562-b35c-ff94e774cca3
+		sourceLineageTag: ss_customer_sk
+		summarizeBy: none
+		sourceColumn: ss_customer_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer demographics dimension.
+	column ss_cdemo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e65f473f-bb26-4c7d-90f1-139de12a51ab
+		sourceLineageTag: ss_cdemo_sk
+		summarizeBy: sum
+		sourceColumn: ss_cdemo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer address dimension.
+	column ss_addr_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: cb65f3a1-6240-4baa-bfb2-4b24d39e2e87
+		sourceLineageTag: ss_addr_sk
+		summarizeBy: sum
+		sourceColumn: ss_addr_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to store dimension.
+	column ss_store_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 809a4a04-3bbf-4067-b54f-ee4d5fbbf6d4
+		sourceLineageTag: ss_store_sk
+		summarizeBy: sum
+		sourceColumn: ss_store_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to promotion dimension.
+	column ss_promo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9a64bbfb-0ae6-4919-b4e9-73e6d90353b3
+		sourceLineageTag: ss_promo_sk
+		summarizeBy: sum
+		sourceColumn: ss_promo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Transaction ticket or receipt number.
+	column ss_ticket_number
+		dataType: int64
+		formatString: 0
+		lineageTag: d8ce37f4-a12c-4558-b131-66631546b607
+		sourceLineageTag: ss_ticket_number
+		summarizeBy: none
+		sourceColumn: ss_ticket_number
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Quantity of items sold in this transaction.
+	column ss_quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 318e6a7b-88a2-413c-8257-315f66313d79
+		sourceLineageTag: ss_quantity
+		summarizeBy: none
+		sourceColumn: ss_quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Wholesale cost per unit for this transaction.
+	column ss_wholesale_cost
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: d02100cc-2804-43d7-b752-8e98d579e202
+		sourceLineageTag: ss_wholesale_cost
+		summarizeBy: none
+		sourceColumn: ss_wholesale_cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// List price per unit at time of sale.
+	column ss_list_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 4f32f293-c19e-497e-906e-089bc204cde9
+		sourceLineageTag: ss_list_price
+		summarizeBy: none
+		sourceColumn: ss_list_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Actual sales price per unit (after discounts).
+	column ss_sales_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: e620a719-f6e0-4965-8326-f4a2d255999b
+		sourceLineageTag: ss_sales_price
+		summarizeBy: none
+		sourceColumn: ss_sales_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Extended sales price (sales price × quantity).
+	column ss_ext_sales_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 8b66819a-a151-4fc7-9ec0-cacf7b6e8e01
+		sourceLineageTag: ss_ext_sales_price
+		summarizeBy: none
+		sourceColumn: ss_ext_sales_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Extended list price (list price × quantity).
+	column ss_ext_list_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: bc8e9c57-98e2-4032-a3fd-69808e3cdd8b
+		sourceLineageTag: ss_ext_list_price
+		summarizeBy: none
+		sourceColumn: ss_ext_list_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Net profit for this transaction (sales price - wholesale cost).
+	column ss_net_profit
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: d2d6233f-6944-40b5-97d7-2870da393d1b
+		sourceLineageTag: ss_net_profit
+		summarizeBy: none
+		sourceColumn: ss_net_profit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Technical column used for cache invalidation in DirectLake mode.
+	column cache_buster
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ae60894-bf63-4fef-a327-bf8796466374
+		sourceLineageTag: cache_buster
+		summarizeBy: none
+		sourceColumn: cache_buster
+
+		annotation SummarizationSetBy = Automatic
+
+	partition store_sales = entity
+		mode: directLake
+		source
+			entityName: store_sales
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

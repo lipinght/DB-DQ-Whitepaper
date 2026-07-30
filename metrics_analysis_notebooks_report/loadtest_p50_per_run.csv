@@ -1,0 +1,793 @@
+SF,Pattern,query_number,Run,visual_name,p50
+10,DB_Composite Model,1,1,Catalog Sales Quantity YoY,28257.9402923584
+10,DB_Composite Model,1,2,Catalog Sales Quantity YoY,183.8371753692627
+10,DB_Composite Model,1,3,Catalog Sales Quantity YoY,159.91473197937012
+10,DB_Composite Model,2,1,Store Profit % Split by Category,319.7674751281738
+10,DB_Composite Model,2,2,Store Profit % Split by Category,56.14948272705078
+10,DB_Composite Model,2,3,Store Profit % Split by Category,63.60912322998047
+10,DB_Composite Model,3,1,Slicer,216.04323387145996
+10,DB_Composite Model,3,2,Slicer,45.931100845336914
+10,DB_Composite Model,3,3,Slicer,50.91261863708496
+10,DB_Composite Model,4,1,Catalog Revenue Ranked by Promotion,313.91072273254395
+10,DB_Composite Model,4,2,Catalog Revenue Ranked by Promotion,87.05592155456543
+10,DB_Composite Model,4,3,Catalog Revenue Ranked by Promotion,101.42040252685547
+10,DB_Composite Model,5,1,Card,17322.68500328064
+10,DB_Composite Model,5,2,Card,14265.892505645752
+10,DB_Composite Model,5,3,Card,11602.832078933716
+10,DB_Composite Model,6,1,Store Revenue Time Analysis,132.5244903564453
+10,DB_Composite Model,6,2,Store Revenue Time Analysis,125.82778930664062
+10,DB_Composite Model,6,3,Store Revenue Time Analysis,122.61319160461426
+10,DB_Composite Model,7,1,Slicer,46.68617248535156
+10,DB_Composite Model,7,2,Slicer,42.191505432128906
+10,DB_Composite Model,7,3,Slicer,42.91701316833496
+10,DB_Composite Model,8,1,Slicer,46.340227127075195
+10,DB_Composite Model,8,2,Slicer,41.749000549316406
+10,DB_Composite Model,8,3,Slicer,44.01803016662598
+10,DB_Composite Model,9,1,Catalog Sales Quantity YoY,123.35586547851562
+10,DB_Composite Model,9,2,Catalog Sales Quantity YoY,333.03380012512207
+10,DB_Composite Model,9,3,Catalog Sales Quantity YoY,116.95671081542969
+10,DB_Composite Model,10,1,Store Profit % Split by Category,2599.708080291748
+10,DB_Composite Model,10,2,Store Profit % Split by Category,2772.7372646331787
+10,DB_Composite Model,10,3,Store Profit % Split by Category,2021.8510627746582
+10,DB_Composite Model,11,1,Slicer,45.40705680847168
+10,DB_Composite Model,11,2,Slicer,51.86772346496582
+10,DB_Composite Model,11,3,Slicer,46.09942436218262
+10,DB_Composite Model,12,1,Catalog Revenue Ranked by Promotion,78.53245735168457
+10,DB_Composite Model,12,2,Catalog Revenue Ranked by Promotion,76.22289657592773
+10,DB_Composite Model,12,3,Catalog Revenue Ranked by Promotion,71.59161567687988
+10,DB_Composite Model,13,1,Card,1823.1065273284912
+10,DB_Composite Model,13,2,Card,1852.1461486816406
+10,DB_Composite Model,13,3,Card,1910.5570316314697
+10,DB_Composite Model,14,1,Store Revenue Time Analysis,3284.2838764190674
+10,DB_Composite Model,14,2,Store Revenue Time Analysis,4277.045965194702
+10,DB_Composite Model,14,3,Store Revenue Time Analysis,2338.3495807647705
+10,DB_Composite Model,15,1,Slicer,63.02213668823242
+10,DB_Composite Model,15,2,Slicer,46.94342613220215
+10,DB_Composite Model,15,3,Slicer,43.9913272857666
+10,DB_Composite Model,16,1,Slicer,58.53605270385742
+10,DB_Composite Model,16,2,Slicer,46.7076301574707
+10,DB_Composite Model,16,3,Slicer,43.55573654174805
+10,DB_Composite Model,17,1,Slicer,46.94819450378418
+10,DB_Composite Model,17,2,Slicer,45.803070068359375
+10,DB_Composite Model,17,3,Slicer,43.23005676269531
+10,DB_Composite Model,18,1,Slicer,45.56751251220703
+10,DB_Composite Model,18,2,Slicer,47.73116111755371
+10,DB_Composite Model,18,3,Slicer,43.251991271972656
+10,DB_Composite Model,19,1,Catalog Sales Quantity YoY,2002.8257369995117
+10,DB_Composite Model,19,2,Catalog Sales Quantity YoY,2141.9339179992676
+10,DB_Composite Model,19,3,Catalog Sales Quantity YoY,1892.4787044525146
+10,DB_Composite Model,20,1,Store Profit % Split by Category,1904.5228958129883
+10,DB_Composite Model,20,2,Store Profit % Split by Category,1825.8376121520996
+10,DB_Composite Model,20,3,Store Profit % Split by Category,1861.1950874328613
+10,DB_Composite Model,21,1,Slicer,49.38793182373047
+10,DB_Composite Model,21,2,Slicer,128.07917594909668
+10,DB_Composite Model,21,3,Slicer,47.701120376586914
+10,DB_Composite Model,22,1,Catalog Revenue Ranked by Promotion,1924.426794052124
+10,DB_Composite Model,22,2,Catalog Revenue Ranked by Promotion,2362.9493713378906
+10,DB_Composite Model,22,3,Catalog Revenue Ranked by Promotion,1856.3909530639648
+10,DB_Composite Model,23,1,Card,1581.5153121948242
+10,DB_Composite Model,23,2,Card,1761.7275714874268
+10,DB_Composite Model,23,3,Card,1642.6172256469727
+10,DB_Composite Model,24,1,Store Revenue Time Analysis,2005.5179595947266
+10,DB_Composite Model,24,2,Store Revenue Time Analysis,4256.699562072754
+10,DB_Composite Model,24,3,Store Revenue Time Analysis,2035.9864234924316
+10,DL_Mirror,1,1,Catalog Sales Quantity YoY,9514.44411277771
+10,DL_Mirror,1,2,Catalog Sales Quantity YoY,5636.35516166687
+10,DL_Mirror,1,3,Catalog Sales Quantity YoY,443.5129165649414
+10,DL_Mirror,2,1,Store Profit % Split by Category,3873.6159801483154
+10,DL_Mirror,2,2,Store Profit % Split by Category,4209.815740585327
+10,DL_Mirror,2,3,Store Profit % Split by Category,244.31681632995605
+10,DL_Mirror,3,1,Slicer,186.05709075927734
+10,DL_Mirror,3,2,Slicer,126.71446800231934
+10,DL_Mirror,3,3,Slicer,51.58209800720215
+10,DL_Mirror,4,1,Catalog Revenue Ranked by Promotion,1862.2119426727295
+10,DL_Mirror,4,2,Catalog Revenue Ranked by Promotion,1934.9117279052734
+10,DL_Mirror,4,3,Catalog Revenue Ranked by Promotion,205.4455280303955
+10,DL_Mirror,5,1,Card,1218.141794204712
+10,DL_Mirror,5,2,Card,1423.830270767212
+10,DL_Mirror,5,3,Card,233.13379287719727
+10,DL_Mirror,6,1,Store Revenue Time Analysis,3467.9975509643555
+10,DL_Mirror,6,2,Store Revenue Time Analysis,4093.2633876800537
+10,DL_Mirror,6,3,Store Revenue Time Analysis,1097.8610515594482
+10,DL_Mirror,7,1,Slicer,47.76597023010254
+10,DL_Mirror,7,2,Slicer,53.2991886138916
+10,DL_Mirror,7,3,Slicer,53.39550971984863
+10,DL_Mirror,8,1,Slicer,52.62184143066406
+10,DL_Mirror,8,2,Slicer,56.63275718688965
+10,DL_Mirror,8,3,Slicer,54.60476875305176
+10,DL_Mirror,9,1,Catalog Sales Quantity YoY,337.1882438659668
+10,DL_Mirror,9,2,Catalog Sales Quantity YoY,376.0247230529785
+10,DL_Mirror,9,3,Catalog Sales Quantity YoY,329.7562599182129
+10,DL_Mirror,10,1,Store Profit % Split by Category,217.36454963684082
+10,DL_Mirror,10,2,Store Profit % Split by Category,223.69956970214844
+10,DL_Mirror,10,3,Store Profit % Split by Category,195.80793380737305
+10,DL_Mirror,11,1,Slicer,58.573007583618164
+10,DL_Mirror,11,2,Slicer,53.88283729553223
+10,DL_Mirror,11,3,Slicer,51.30767822265625
+10,DL_Mirror,12,1,Catalog Revenue Ranked by Promotion,196.9141960144043
+10,DL_Mirror,12,2,Catalog Revenue Ranked by Promotion,194.26274299621582
+10,DL_Mirror,12,3,Catalog Revenue Ranked by Promotion,182.753324508667
+10,DL_Mirror,13,1,Card,199.59688186645508
+10,DL_Mirror,13,2,Card,208.6012363433838
+10,DL_Mirror,13,3,Card,187.1182918548584
+10,DL_Mirror,14,1,Store Revenue Time Analysis,812.3321533203125
+10,DL_Mirror,14,2,Store Revenue Time Analysis,1141.0608291625977
+10,DL_Mirror,14,3,Store Revenue Time Analysis,562.288761138916
+10,DL_Mirror,15,1,Slicer,52.92820930480957
+10,DL_Mirror,15,2,Slicer,53.76076698303223
+10,DL_Mirror,15,3,Slicer,53.82800102233887
+10,DL_Mirror,16,1,Slicer,51.183462142944336
+10,DL_Mirror,16,2,Slicer,50.804853439331055
+10,DL_Mirror,16,3,Slicer,55.71770668029785
+10,DL_Mirror,17,1,Slicer,48.89798164367676
+10,DL_Mirror,17,2,Slicer,56.05363845825195
+10,DL_Mirror,17,3,Slicer,51.65362358093262
+10,DL_Mirror,18,1,Slicer,45.701026916503906
+10,DL_Mirror,18,2,Slicer,56.79440498352051
+10,DL_Mirror,18,3,Slicer,49.24440383911133
+10,DL_Mirror,19,1,Catalog Sales Quantity YoY,1049.0984916687012
+10,DL_Mirror,19,2,Catalog Sales Quantity YoY,746.9685077667236
+10,DL_Mirror,19,3,Catalog Sales Quantity YoY,348.252534866333
+10,DL_Mirror,20,1,Store Profit % Split by Category,276.3400077819824
+10,DL_Mirror,20,2,Store Profit % Split by Category,222.71299362182617
+10,DL_Mirror,20,3,Store Profit % Split by Category,186.875581741333
+10,DL_Mirror,21,1,Slicer,55.07326126098633
+10,DL_Mirror,21,2,Slicer,50.3842830657959
+10,DL_Mirror,21,3,Slicer,50.28057098388672
+10,DL_Mirror,22,1,Catalog Revenue Ranked by Promotion,246.97542190551758
+10,DL_Mirror,22,2,Catalog Revenue Ranked by Promotion,208.2202434539795
+10,DL_Mirror,22,3,Catalog Revenue Ranked by Promotion,181.72121047973633
+10,DL_Mirror,23,1,Card,256.75249099731445
+10,DL_Mirror,23,2,Card,229.88033294677734
+10,DL_Mirror,23,3,Card,192.41857528686523
+10,DL_Mirror,24,1,Store Revenue Time Analysis,1104.853630065918
+10,DL_Mirror,24,2,Store Revenue Time Analysis,1193.0952072143555
+10,DL_Mirror,24,3,Store Revenue Time Analysis,557.3749542236328
+10,Direct_Query,1,1,Catalog Sales Quantity YoY,53198.068380355835
+10,Direct_Query,1,2,Catalog Sales Quantity YoY,5089.448690414429
+10,Direct_Query,1,3,Catalog Sales Quantity YoY,12501.08528137207
+10,Direct_Query,2,1,Store Profit % Split by Category,1885.5295181274414
+10,Direct_Query,2,2,Store Profit % Split by Category,1506.6404342651367
+10,Direct_Query,2,3,Store Profit % Split by Category,2446.2485313415527
+10,Direct_Query,3,1,Slicer,47.93596267700195
+10,Direct_Query,3,2,Slicer,47.90949821472168
+10,Direct_Query,3,3,Slicer,50.50206184387207
+10,Direct_Query,4,1,Catalog Revenue Ranked by Promotion,1748.1908798217773
+10,Direct_Query,4,2,Catalog Revenue Ranked by Promotion,1373.0003833770752
+10,Direct_Query,4,3,Catalog Revenue Ranked by Promotion,1744.051456451416
+10,Direct_Query,5,1,Card,1768.6712741851807
+10,Direct_Query,5,2,Card,1437.406063079834
+10,Direct_Query,5,3,Card,1571.3539123535156
+10,Direct_Query,6,1,Store Revenue Time Analysis,6895.540714263916
+10,Direct_Query,6,2,Store Revenue Time Analysis,7936.109304428101
+10,Direct_Query,6,3,Store Revenue Time Analysis,9684.59701538086
+10,Direct_Query,7,1,Slicer,520.8885669708252
+10,Direct_Query,7,2,Slicer,550.3780841827393
+10,Direct_Query,7,3,Slicer,568.4645175933838
+10,Direct_Query,8,1,Slicer,592.3230648040771
+10,Direct_Query,8,2,Slicer,612.5710010528564
+10,Direct_Query,8,3,Slicer,620.2437877655029
+10,Direct_Query,9,1,Catalog Sales Quantity YoY,4255.406618118286
+10,Direct_Query,9,2,Catalog Sales Quantity YoY,4185.0950717926025
+10,Direct_Query,9,3,Catalog Sales Quantity YoY,6646.499156951904
+10,Direct_Query,10,1,Store Profit % Split by Category,1766.129493713379
+10,Direct_Query,10,2,Store Profit % Split by Category,1514.2042636871338
+10,Direct_Query,10,3,Store Profit % Split by Category,2114.4866943359375
+10,Direct_Query,11,1,Slicer,46.04935646057129
+10,Direct_Query,11,2,Slicer,44.04735565185547
+10,Direct_Query,11,3,Slicer,57.49368667602539
+10,Direct_Query,12,1,Catalog Revenue Ranked by Promotion,1461.1032009124756
+10,Direct_Query,12,2,Catalog Revenue Ranked by Promotion,1453.0556201934814
+10,Direct_Query,12,3,Catalog Revenue Ranked by Promotion,1695.9033012390137
+10,Direct_Query,13,1,Card,1667.0687198638916
+10,Direct_Query,13,2,Card,1652.0841121673584
+10,Direct_Query,13,3,Card,1732.7396869659424
+10,Direct_Query,14,1,Store Revenue Time Analysis,6845.481395721436
+10,Direct_Query,14,2,Store Revenue Time Analysis,5780.042886734009
+10,Direct_Query,14,3,Store Revenue Time Analysis,10306.59818649292
+10,Direct_Query,15,1,Slicer,561.701774597168
+10,Direct_Query,15,2,Slicer,552.3715019226074
+10,Direct_Query,15,3,Slicer,721.6525077819824
+10,Direct_Query,16,1,Slicer,523.6079692840576
+10,Direct_Query,16,2,Slicer,540.5702590942383
+10,Direct_Query,16,3,Slicer,614.6814823150635
+10,Direct_Query,17,1,Slicer,580.8150768280029
+10,Direct_Query,17,2,Slicer,559.9164962768555
+10,Direct_Query,17,3,Slicer,630.096435546875
+10,Direct_Query,18,1,Slicer,650.7220268249512
+10,Direct_Query,18,2,Slicer,570.9648132324219
+10,Direct_Query,18,3,Slicer,655.4529666900635
+10,Direct_Query,19,1,Catalog Sales Quantity YoY,4423.533201217651
+10,Direct_Query,19,2,Catalog Sales Quantity YoY,5071.024179458618
+10,Direct_Query,19,3,Catalog Sales Quantity YoY,6309.869050979614
+10,Direct_Query,20,1,Store Profit % Split by Category,1477.550983428955
+10,Direct_Query,20,2,Store Profit % Split by Category,1558.391809463501
+10,Direct_Query,20,3,Store Profit % Split by Category,1586.869716644287
+10,Direct_Query,21,1,Slicer,45.03583908081055
+10,Direct_Query,21,2,Slicer,46.27251625061035
+10,Direct_Query,21,3,Slicer,51.12743377685547
+10,Direct_Query,22,1,Catalog Revenue Ranked by Promotion,1589.0555381774902
+10,Direct_Query,22,2,Catalog Revenue Ranked by Promotion,1650.2141952514648
+10,Direct_Query,22,3,Catalog Revenue Ranked by Promotion,1561.011791229248
+10,Direct_Query,23,1,Card,1597.0592498779297
+10,Direct_Query,23,2,Card,1576.6398906707764
+10,Direct_Query,23,3,Card,1539.2897129058838
+10,Direct_Query,24,1,Store Revenue Time Analysis,6460.073232650757
+10,Direct_Query,24,2,Store Revenue Time Analysis,7425.804615020752
+10,Direct_Query,24,3,Store Revenue Time Analysis,9555.839538574219
+10,fab_dl,1,1,Catalog Sales Quantity YoY,15073.252201080322
+10,fab_dl,1,2,Catalog Sales Quantity YoY,353.8243770599365
+10,fab_dl,1,3,Catalog Sales Quantity YoY,405.3454399108887
+10,fab_dl,2,1,Store Profit % Split by Category,14861.723899841309
+10,fab_dl,2,2,Store Profit % Split by Category,173.6593246459961
+10,fab_dl,2,3,Store Profit % Split by Category,165.85421562194824
+10,fab_dl,3,1,Slicer,183.71200561523438
+10,fab_dl,3,2,Slicer,52.39224433898926
+10,fab_dl,3,3,Slicer,54.16107177734375
+10,fab_dl,4,1,Catalog Revenue Ranked by Promotion,8926.705837249756
+10,fab_dl,4,2,Catalog Revenue Ranked by Promotion,188.8449192047119
+10,fab_dl,4,3,Catalog Revenue Ranked by Promotion,197.6156234741211
+10,fab_dl,5,1,Card,5601.886034011841
+10,fab_dl,5,2,Card,160.76016426086426
+10,fab_dl,5,3,Card,147.7818489074707
+10,fab_dl,6,1,Store Revenue Time Analysis,10924.858331680298
+10,fab_dl,6,2,Store Revenue Time Analysis,696.3064670562744
+10,fab_dl,6,3,Store Revenue Time Analysis,793.4622764587402
+10,fab_dl,7,1,Slicer,49.83925819396973
+10,fab_dl,7,2,Slicer,48.970937728881836
+10,fab_dl,7,3,Slicer,50.612688064575195
+10,fab_dl,8,1,Slicer,51.61547660827637
+10,fab_dl,8,2,Slicer,49.91745948791504
+10,fab_dl,8,3,Slicer,52.077531814575195
+10,fab_dl,9,1,Catalog Sales Quantity YoY,411.3287925720215
+10,fab_dl,9,2,Catalog Sales Quantity YoY,290.2994155883789
+10,fab_dl,9,3,Catalog Sales Quantity YoY,281.5284729003906
+10,fab_dl,10,1,Store Profit % Split by Category,4976.433753967285
+10,fab_dl,10,2,Store Profit % Split by Category,159.58619117736816
+10,fab_dl,10,3,Store Profit % Split by Category,155.58528900146484
+10,fab_dl,11,1,Slicer,127.42114067077637
+10,fab_dl,11,2,Slicer,47.07193374633789
+10,fab_dl,11,3,Slicer,49.32522773742676
+10,fab_dl,12,1,Catalog Revenue Ranked by Promotion,612.7793788909912
+10,fab_dl,12,2,Catalog Revenue Ranked by Promotion,157.70840644836426
+10,fab_dl,12,3,Catalog Revenue Ranked by Promotion,157.51099586486816
+10,fab_dl,13,1,Card,268.6789035797119
+10,fab_dl,13,2,Card,159.24811363220215
+10,fab_dl,13,3,Card,157.18531608581543
+10,fab_dl,14,1,Store Revenue Time Analysis,1606.7874431610107
+10,fab_dl,14,2,Store Revenue Time Analysis,857.919454574585
+10,fab_dl,14,3,Store Revenue Time Analysis,674.0219593048096
+10,fab_dl,15,1,Slicer,55.05204200744629
+10,fab_dl,15,2,Slicer,50.24909973144531
+10,fab_dl,15,3,Slicer,50.83298683166504
+10,fab_dl,16,1,Slicer,54.560184478759766
+10,fab_dl,16,2,Slicer,50.37498474121094
+10,fab_dl,16,3,Slicer,54.34465408325195
+10,fab_dl,17,1,Slicer,54.16727066040039
+10,fab_dl,17,2,Slicer,50.073862075805664
+10,fab_dl,17,3,Slicer,51.10502243041992
+10,fab_dl,18,1,Slicer,51.52630805969238
+10,fab_dl,18,2,Slicer,49.173593521118164
+10,fab_dl,18,3,Slicer,49.65639114379883
+10,fab_dl,19,1,Catalog Sales Quantity YoY,6409.895181655884
+10,fab_dl,19,2,Catalog Sales Quantity YoY,342.7426815032959
+10,fab_dl,19,3,Catalog Sales Quantity YoY,299.990177154541
+10,fab_dl,20,1,Store Profit % Split by Category,226.55034065246582
+10,fab_dl,20,2,Store Profit % Split by Category,150.91848373413086
+10,fab_dl,20,3,Store Profit % Split by Category,162.05763816833496
+10,fab_dl,21,1,Slicer,49.30830001831055
+10,fab_dl,21,2,Slicer,51.17154121398926
+10,fab_dl,21,3,Slicer,49.60942268371582
+10,fab_dl,22,1,Catalog Revenue Ranked by Promotion,291.75853729248047
+10,fab_dl,22,2,Catalog Revenue Ranked by Promotion,189.71705436706543
+10,fab_dl,22,3,Catalog Revenue Ranked by Promotion,173.28238487243652
+10,fab_dl,23,1,Card,189.4388198852539
+10,fab_dl,23,2,Card,165.38119316101074
+10,fab_dl,23,3,Card,161.93413734436035
+10,fab_dl,24,1,Store Revenue Time Analysis,1385.652780532837
+10,fab_dl,24,2,Store Revenue Time Analysis,758.5160732269287
+10,fab_dl,24,3,Store Revenue Time Analysis,589.930534362793
+100,DB_Composite Model,1,1,Catalog Sales Quantity YoY,13649.582386016846
+100,DB_Composite Model,1,2,Catalog Sales Quantity YoY,157.38439559936523
+100,DB_Composite Model,1,3,Catalog Sales Quantity YoY,162.34064102172852
+100,DB_Composite Model,2,1,Store Profit % Split by Category,149.9929428100586
+100,DB_Composite Model,2,2,Store Profit % Split by Category,60.044288635253906
+100,DB_Composite Model,2,3,Store Profit % Split by Category,54.24356460571289
+100,DB_Composite Model,3,1,Slicer,145.18475532531738
+100,DB_Composite Model,3,2,Slicer,46.87809944152832
+100,DB_Composite Model,3,3,Slicer,45.48978805541992
+100,DB_Composite Model,4,1,Catalog Revenue Ranked by Promotion,280.5216312408447
+100,DB_Composite Model,4,2,Catalog Revenue Ranked by Promotion,109.8630428314209
+100,DB_Composite Model,4,3,Catalog Revenue Ranked by Promotion,100.65937042236328
+100,DB_Composite Model,5,1,Card,7212.664842605591
+100,DB_Composite Model,5,2,Card,1779.9932956695557
+100,DB_Composite Model,5,3,Card,1661.3044738769531
+100,DB_Composite Model,6,1,Store Revenue Time Analysis,138.49258422851562
+100,DB_Composite Model,6,2,Store Revenue Time Analysis,144.90222930908203
+100,DB_Composite Model,6,3,Store Revenue Time Analysis,183.14242362976074
+100,DB_Composite Model,7,1,Slicer,47.28960990905762
+100,DB_Composite Model,7,2,Slicer,43.29371452331543
+100,DB_Composite Model,7,3,Slicer,46.6771125793457
+100,DB_Composite Model,8,1,Slicer,46.35047912597656
+100,DB_Composite Model,8,2,Slicer,46.33760452270508
+100,DB_Composite Model,8,3,Slicer,47.35231399536133
+100,DB_Composite Model,9,1,Catalog Sales Quantity YoY,128.86333465576172
+100,DB_Composite Model,9,2,Catalog Sales Quantity YoY,120.7735538482666
+100,DB_Composite Model,9,3,Catalog Sales Quantity YoY,122.54977226257324
+100,DB_Composite Model,10,1,Store Profit % Split by Category,2056.9393634796143
+100,DB_Composite Model,10,2,Store Profit % Split by Category,1744.4350719451904
+100,DB_Composite Model,10,3,Store Profit % Split by Category,1660.437822341919
+100,DB_Composite Model,11,1,Slicer,46.64158821105957
+100,DB_Composite Model,11,2,Slicer,47.52945899963379
+100,DB_Composite Model,11,3,Slicer,46.17571830749512
+100,DB_Composite Model,12,1,Catalog Revenue Ranked by Promotion,77.83818244934082
+100,DB_Composite Model,12,2,Catalog Revenue Ranked by Promotion,80.78932762145996
+100,DB_Composite Model,12,3,Catalog Revenue Ranked by Promotion,78.24373245239258
+100,DB_Composite Model,13,1,Card,1803.917646408081
+100,DB_Composite Model,13,2,Card,1588.5801315307617
+100,DB_Composite Model,13,3,Card,1622.4093437194824
+100,DB_Composite Model,14,1,Store Revenue Time Analysis,9018.79096031189
+100,DB_Composite Model,14,2,Store Revenue Time Analysis,3144.7670459747314
+100,DB_Composite Model,14,3,Store Revenue Time Analysis,2683.713674545288
+100,DB_Composite Model,15,1,Slicer,52.16526985168457
+100,DB_Composite Model,15,2,Slicer,49.831390380859375
+100,DB_Composite Model,15,3,Slicer,46.99301719665527
+100,DB_Composite Model,16,1,Slicer,45.55845260620117
+100,DB_Composite Model,16,2,Slicer,45.217037200927734
+100,DB_Composite Model,16,3,Slicer,46.6616153717041
+100,DB_Composite Model,17,1,Slicer,47.38569259643555
+100,DB_Composite Model,17,2,Slicer,45.62568664550781
+100,DB_Composite Model,17,3,Slicer,46.155691146850586
+100,DB_Composite Model,18,1,Slicer,45.821428298950195
+100,DB_Composite Model,18,2,Slicer,47.11723327636719
+100,DB_Composite Model,18,3,Slicer,46.96297645568848
+100,DB_Composite Model,19,1,Catalog Sales Quantity YoY,1969.4859981536865
+100,DB_Composite Model,19,2,Catalog Sales Quantity YoY,2363.898515701294
+100,DB_Composite Model,19,3,Catalog Sales Quantity YoY,1912.5685691833496
+100,DB_Composite Model,20,1,Store Profit % Split by Category,1730.396032333374
+100,DB_Composite Model,20,2,Store Profit % Split by Category,1862.142562866211
+100,DB_Composite Model,20,3,Store Profit % Split by Category,1652.404546737671
+100,DB_Composite Model,21,1,Slicer,51.61643028259277
+100,DB_Composite Model,21,2,Slicer,54.47959899902344
+100,DB_Composite Model,21,3,Slicer,48.9346981048584
+100,DB_Composite Model,22,1,Catalog Revenue Ranked by Promotion,1847.8281497955322
+100,DB_Composite Model,22,2,Catalog Revenue Ranked by Promotion,1875.4172325134277
+100,DB_Composite Model,22,3,Catalog Revenue Ranked by Promotion,1754.399299621582
+100,DB_Composite Model,23,1,Card,1563.0953311920166
+100,DB_Composite Model,23,2,Card,1719.022274017334
+100,DB_Composite Model,23,3,Card,1557.9102039337158
+100,DB_Composite Model,24,1,Store Revenue Time Analysis,2022.6850509643555
+100,DB_Composite Model,24,2,Store Revenue Time Analysis,2514.3611431121826
+100,DB_Composite Model,24,3,Store Revenue Time Analysis,2238.908052444458
+100,DL_Mirror,1,1,Catalog Sales Quantity YoY,18592.771768569946
+100,DL_Mirror,1,2,Catalog Sales Quantity YoY,20752.824783325195
+100,DL_Mirror,1,3,Catalog Sales Quantity YoY,21961.73882484436
+100,DL_Mirror,2,1,Store Profit % Split by Category,30711.015939712524
+100,DL_Mirror,2,2,Store Profit % Split by Category,36381.839990615845
+100,DL_Mirror,2,3,Store Profit % Split by Category,42620.192527770996
+100,DL_Mirror,3,1,Slicer,213.98568153381348
+100,DL_Mirror,3,2,Slicer,211.2281322479248
+100,DL_Mirror,3,3,Slicer,256.0737133026123
+100,DL_Mirror,4,1,Catalog Revenue Ranked by Promotion,11296.66805267334
+100,DL_Mirror,4,2,Catalog Revenue Ranked by Promotion,13496.091604232788
+100,DL_Mirror,4,3,Catalog Revenue Ranked by Promotion,13525.451183319092
+100,DL_Mirror,5,1,Card,9859.315872192383
+100,DL_Mirror,5,2,Card,13026.079416275024
+100,DL_Mirror,5,3,Card,14115.085124969482
+100,DL_Mirror,6,1,Store Revenue Time Analysis,23682.411193847656
+100,DL_Mirror,6,2,Store Revenue Time Analysis,29689.675092697144
+100,DL_Mirror,6,3,Store Revenue Time Analysis,36580.94024658203
+100,DL_Mirror,7,1,Slicer,1144.0932750701904
+100,DL_Mirror,7,2,Slicer,2928.1039237976074
+100,DL_Mirror,7,3,Slicer,3140.6209468841553
+100,DL_Mirror,8,1,Slicer,644.9079513549805
+100,DL_Mirror,8,2,Slicer,292.1431064605713
+100,DL_Mirror,8,3,Slicer,845.8375930786133
+100,DL_Mirror,9,1,Catalog Sales Quantity YoY,1758.4340572357178
+100,DL_Mirror,9,2,Catalog Sales Quantity YoY,3060.040235519409
+100,DL_Mirror,9,3,Catalog Sales Quantity YoY,4795.142412185669
+100,DL_Mirror,10,1,Store Profit % Split by Category,2813.8957023620605
+100,DL_Mirror,10,2,Store Profit % Split by Category,4280.3332805633545
+100,DL_Mirror,10,3,Store Profit % Split by Category,5970.345497131348
+100,DL_Mirror,11,1,Slicer,49.706220626831055
+100,DL_Mirror,11,2,Slicer,88.52791786193848
+100,DL_Mirror,11,3,Slicer,133.8043212890625
+100,DL_Mirror,12,1,Catalog Revenue Ranked by Promotion,915.341854095459
+100,DL_Mirror,12,2,Catalog Revenue Ranked by Promotion,1068.817377090454
+100,DL_Mirror,12,3,Catalog Revenue Ranked by Promotion,1420.976161956787
+100,DL_Mirror,13,1,Card,637.4742984771729
+100,DL_Mirror,13,2,Card,1198.8801956176758
+100,DL_Mirror,13,3,Card,1364.2871379852295
+100,DL_Mirror,14,1,Store Revenue Time Analysis,5131.716728210449
+100,DL_Mirror,14,2,Store Revenue Time Analysis,6109.263181686401
+100,DL_Mirror,14,3,Store Revenue Time Analysis,6887.828350067139
+100,DL_Mirror,15,1,Slicer,119.23933029174805
+100,DL_Mirror,15,2,Slicer,279.27541732788086
+100,DL_Mirror,15,3,Slicer,276.0961055755615
+100,DL_Mirror,16,1,Slicer,49.09539222717285
+100,DL_Mirror,16,2,Slicer,62.935590744018555
+100,DL_Mirror,16,3,Slicer,57.8305721282959
+100,DL_Mirror,17,1,Slicer,47.52302169799805
+100,DL_Mirror,17,2,Slicer,57.47795104980469
+100,DL_Mirror,17,3,Slicer,62.78562545776367
+100,DL_Mirror,18,1,Slicer,65.06133079528809
+100,DL_Mirror,18,2,Slicer,161.1952781677246
+100,DL_Mirror,18,3,Slicer,172.23143577575684
+100,DL_Mirror,19,1,Catalog Sales Quantity YoY,2997.696876525879
+100,DL_Mirror,19,2,Catalog Sales Quantity YoY,4726.235866546631
+100,DL_Mirror,19,3,Catalog Sales Quantity YoY,7454.876661300659
+100,DL_Mirror,20,1,Store Profit % Split by Category,476.0324954986572
+100,DL_Mirror,20,2,Store Profit % Split by Category,446.52366638183594
+100,DL_Mirror,20,3,Store Profit % Split by Category,2266.8075561523438
+100,DL_Mirror,21,1,Slicer,45.679330825805664
+100,DL_Mirror,21,2,Slicer,50.00114440917969
+100,DL_Mirror,21,3,Slicer,74.77617263793945
+100,DL_Mirror,22,1,Catalog Revenue Ranked by Promotion,342.8468704223633
+100,DL_Mirror,22,2,Catalog Revenue Ranked by Promotion,499.56250190734863
+100,DL_Mirror,22,3,Catalog Revenue Ranked by Promotion,538.2406711578369
+100,DL_Mirror,23,1,Card,401.29756927490234
+100,DL_Mirror,23,2,Card,760.3051662445068
+100,DL_Mirror,23,3,Card,637.0964050292969
+100,DL_Mirror,24,1,Store Revenue Time Analysis,5175.391912460327
+100,DL_Mirror,24,2,Store Revenue Time Analysis,7249.539136886597
+100,DL_Mirror,24,3,Store Revenue Time Analysis,6740.827560424805
+100,Direct_Query,1,1,Catalog Sales Quantity YoY,49832.97634124756
+100,Direct_Query,1,2,Catalog Sales Quantity YoY,13882.928848266602
+100,Direct_Query,1,3,Catalog Sales Quantity YoY,4579.856157302856
+100,Direct_Query,2,1,Store Profit % Split by Category,3163.7916564941406
+100,Direct_Query,2,2,Store Profit % Split by Category,3104.2449474334717
+100,Direct_Query,2,3,Store Profit % Split by Category,1834.3470096588135
+100,Direct_Query,3,1,Slicer,42.52815246582031
+100,Direct_Query,3,2,Slicer,45.60518264770508
+100,Direct_Query,3,3,Slicer,42.96445846557617
+100,Direct_Query,4,1,Catalog Revenue Ranked by Promotion,2233.492612838745
+100,Direct_Query,4,2,Catalog Revenue Ranked by Promotion,2213.1316661834717
+100,Direct_Query,4,3,Catalog Revenue Ranked by Promotion,1783.9422225952148
+100,Direct_Query,5,1,Card,2030.1170349121094
+100,Direct_Query,5,2,Card,2113.9492988586426
+100,Direct_Query,5,3,Card,1669.248342514038
+100,Direct_Query,6,1,Store Revenue Time Analysis,5019.001483917236
+100,Direct_Query,6,2,Store Revenue Time Analysis,8328.848838806152
+100,Direct_Query,6,3,Store Revenue Time Analysis,5911.591053009033
+100,Direct_Query,7,1,Slicer,579.6406269073486
+100,Direct_Query,7,2,Slicer,564.1438961029053
+100,Direct_Query,7,3,Slicer,496.4449405670166
+100,Direct_Query,8,1,Slicer,497.7118968963623
+100,Direct_Query,8,2,Slicer,546.6632843017578
+100,Direct_Query,8,3,Slicer,480.88788986206055
+100,Direct_Query,9,1,Catalog Sales Quantity YoY,3950.3438472747803
+100,Direct_Query,9,2,Catalog Sales Quantity YoY,4393.563747406006
+100,Direct_Query,9,3,Catalog Sales Quantity YoY,4441.3652420043945
+100,Direct_Query,10,1,Store Profit % Split by Category,2004.9540996551514
+100,Direct_Query,10,2,Store Profit % Split by Category,1774.7626304626465
+100,Direct_Query,10,3,Store Profit % Split by Category,1808.746099472046
+100,Direct_Query,11,1,Slicer,43.60628128051758
+100,Direct_Query,11,2,Slicer,43.843746185302734
+100,Direct_Query,11,3,Slicer,41.52226448059082
+100,Direct_Query,12,1,Catalog Revenue Ranked by Promotion,1746.6936111450195
+100,Direct_Query,12,2,Catalog Revenue Ranked by Promotion,1654.3426513671875
+100,Direct_Query,12,3,Catalog Revenue Ranked by Promotion,1660.4502201080322
+100,Direct_Query,13,1,Card,1902.921438217163
+100,Direct_Query,13,2,Card,1878.2837390899658
+100,Direct_Query,13,3,Card,1581.8727016448975
+100,Direct_Query,14,1,Store Revenue Time Analysis,5094.788551330566
+100,Direct_Query,14,2,Store Revenue Time Analysis,6561.331987380981
+100,Direct_Query,14,3,Store Revenue Time Analysis,5550.810098648071
+100,Direct_Query,15,1,Slicer,507.1399211883545
+100,Direct_Query,15,2,Slicer,523.1893062591553
+100,Direct_Query,15,3,Slicer,475.25668144226074
+100,Direct_Query,16,1,Slicer,519.8392868041992
+100,Direct_Query,16,2,Slicer,539.046049118042
+100,Direct_Query,16,3,Slicer,548.0544567108154
+100,Direct_Query,17,1,Slicer,570.0719356536865
+100,Direct_Query,17,2,Slicer,490.16499519348145
+100,Direct_Query,17,3,Slicer,427.4263381958008
+100,Direct_Query,18,1,Slicer,549.389123916626
+100,Direct_Query,18,2,Slicer,502.0182132720947
+100,Direct_Query,18,3,Slicer,451.7366886138916
+100,Direct_Query,19,1,Catalog Sales Quantity YoY,4474.813222885132
+100,Direct_Query,19,2,Catalog Sales Quantity YoY,4520.654678344727
+100,Direct_Query,19,3,Catalog Sales Quantity YoY,4179.938077926636
+100,Direct_Query,20,1,Store Profit % Split by Category,1925.844430923462
+100,Direct_Query,20,2,Store Profit % Split by Category,1805.0334453582764
+100,Direct_Query,20,3,Store Profit % Split by Category,1656.33225440979
+100,Direct_Query,21,1,Slicer,41.44024848937988
+100,Direct_Query,21,2,Slicer,42.59443283081055
+100,Direct_Query,21,3,Slicer,56.55026435852051
+100,Direct_Query,22,1,Catalog Revenue Ranked by Promotion,1949.1467475891113
+100,Direct_Query,22,2,Catalog Revenue Ranked by Promotion,1961.4934921264648
+100,Direct_Query,22,3,Catalog Revenue Ranked by Promotion,2107.205390930176
+100,Direct_Query,23,1,Card,1888.7393474578857
+100,Direct_Query,23,2,Card,1766.9732570648193
+100,Direct_Query,23,3,Card,1616.1279678344727
+100,Direct_Query,24,1,Store Revenue Time Analysis,5772.138357162476
+100,Direct_Query,24,2,Store Revenue Time Analysis,4762.526512145996
+100,Direct_Query,24,3,Store Revenue Time Analysis,5795.645236968994
+100,fab_dl,1,1,Catalog Sales Quantity YoY,16042.619705200195
+100,fab_dl,1,2,Catalog Sales Quantity YoY,396.93665504455566
+100,fab_dl,1,3,Catalog Sales Quantity YoY,444.9613094329834
+100,fab_dl,2,1,Store Profit % Split by Category,26301.653385162354
+100,fab_dl,2,2,Store Profit % Split by Category,284.32488441467285
+100,fab_dl,2,3,Store Profit % Split by Category,295.4518795013428
+100,fab_dl,3,1,Slicer,163.4669303894043
+100,fab_dl,3,2,Slicer,39.244651794433594
+100,fab_dl,3,3,Slicer,40.935516357421875
+100,fab_dl,4,1,Catalog Revenue Ranked by Promotion,16130.91516494751
+100,fab_dl,4,2,Catalog Revenue Ranked by Promotion,225.36945343017578
+100,fab_dl,4,3,Catalog Revenue Ranked by Promotion,259.34791564941406
+100,fab_dl,5,1,Card,7063.472270965576
+100,fab_dl,5,2,Card,198.1518268585205
+100,fab_dl,5,3,Card,224.84374046325684
+100,fab_dl,6,1,Store Revenue Time Analysis,19323.922157287598
+100,fab_dl,6,2,Store Revenue Time Analysis,1572.0324516296387
+100,fab_dl,6,3,Store Revenue Time Analysis,2139.310836791992
+100,fab_dl,7,1,Slicer,39.46352005004883
+100,fab_dl,7,2,Slicer,41.39137268066406
+100,fab_dl,7,3,Slicer,46.9970703125
+100,fab_dl,8,1,Slicer,40.82918167114258
+100,fab_dl,8,2,Slicer,42.01149940490723
+100,fab_dl,8,3,Slicer,46.38814926147461
+100,fab_dl,9,1,Catalog Sales Quantity YoY,347.66173362731934
+100,fab_dl,9,2,Catalog Sales Quantity YoY,255.16653060913086
+100,fab_dl,9,3,Catalog Sales Quantity YoY,315.1979446411133
+100,fab_dl,10,1,Store Profit % Split by Category,4070.9452629089355
+100,fab_dl,10,2,Store Profit % Split by Category,135.99109649658203
+100,fab_dl,10,3,Store Profit % Split by Category,168.95365715026855
+100,fab_dl,11,1,Slicer,54.05449867248535
+100,fab_dl,11,2,Slicer,40.37308692932129
+100,fab_dl,11,3,Slicer,40.39812088012695
+100,fab_dl,12,1,Catalog Revenue Ranked by Promotion,525.6719589233398
+100,fab_dl,12,2,Catalog Revenue Ranked by Promotion,144.23179626464844
+100,fab_dl,12,3,Catalog Revenue Ranked by Promotion,185.95051765441895
+100,fab_dl,13,1,Card,218.55950355529785
+100,fab_dl,13,2,Card,132.94339179992676
+100,fab_dl,13,3,Card,150.63881874084473
+100,fab_dl,14,1,Store Revenue Time Analysis,1436.2311363220215
+100,fab_dl,14,2,Store Revenue Time Analysis,485.9907627105713
+100,fab_dl,14,3,Store Revenue Time Analysis,616.0902976989746
+100,fab_dl,15,1,Slicer,38.74063491821289
+100,fab_dl,15,2,Slicer,42.293548583984375
+100,fab_dl,15,3,Slicer,42.150020599365234
+100,fab_dl,16,1,Slicer,39.162397384643555
+100,fab_dl,16,2,Slicer,39.17217254638672
+100,fab_dl,16,3,Slicer,45.124053955078125
+100,fab_dl,17,1,Slicer,38.6202335357666
+100,fab_dl,17,2,Slicer,41.478633880615234
+100,fab_dl,17,3,Slicer,41.11313819885254
+100,fab_dl,18,1,Slicer,40.239572525024414
+100,fab_dl,18,2,Slicer,39.559364318847656
+100,fab_dl,18,3,Slicer,43.164730072021484
+100,fab_dl,19,1,Catalog Sales Quantity YoY,6416.0315990448
+100,fab_dl,19,2,Catalog Sales Quantity YoY,311.9311332702637
+100,fab_dl,19,3,Catalog Sales Quantity YoY,396.9137668609619
+100,fab_dl,20,1,Store Profit % Split by Category,211.30919456481934
+100,fab_dl,20,2,Store Profit % Split by Category,135.6828212738037
+100,fab_dl,20,3,Store Profit % Split by Category,140.99526405334473
+100,fab_dl,21,1,Slicer,39.82806205749512
+100,fab_dl,21,2,Slicer,38.14578056335449
+100,fab_dl,21,3,Slicer,38.36941719055176
+100,fab_dl,22,1,Catalog Revenue Ranked by Promotion,305.0518035888672
+100,fab_dl,22,2,Catalog Revenue Ranked by Promotion,171.95963859558105
+100,fab_dl,22,3,Catalog Revenue Ranked by Promotion,192.3232078552246
+100,fab_dl,23,1,Card,161.74697875976562
+100,fab_dl,23,2,Card,132.86280632019043
+100,fab_dl,23,3,Card,147.11618423461914
+100,fab_dl,24,1,Store Revenue Time Analysis,978.6286354064941
+100,fab_dl,24,2,Store Revenue Time Analysis,452.2395133972168
+100,fab_dl,24,3,Store Revenue Time Analysis,499.2794990539551
+1000,DB_Composite Model,1,1,Catalog Sales Quantity YoY,15300.599575042725
+1000,DB_Composite Model,1,2,Catalog Sales Quantity YoY,174.92151260375977
+1000,DB_Composite Model,1,3,Catalog Sales Quantity YoY,159.00158882141113
+1000,DB_Composite Model,2,1,Store Profit % Split by Category,200.92391967773438
+1000,DB_Composite Model,2,2,Store Profit % Split by Category,64.4831657409668
+1000,DB_Composite Model,2,3,Store Profit % Split by Category,53.499460220336914
+1000,DB_Composite Model,3,1,Slicer,128.51405143737793
+1000,DB_Composite Model,3,2,Slicer,56.7479133605957
+1000,DB_Composite Model,3,3,Slicer,44.72851753234863
+1000,DB_Composite Model,4,1,Catalog Revenue Ranked by Promotion,288.68699073791504
+1000,DB_Composite Model,4,2,Catalog Revenue Ranked by Promotion,103.77168655395508
+1000,DB_Composite Model,4,3,Catalog Revenue Ranked by Promotion,89.42627906799316
+1000,DB_Composite Model,5,1,Card,7145.632743835449
+1000,DB_Composite Model,5,2,Card,2268.3568000793457
+1000,DB_Composite Model,5,3,Card,1749.2854595184326
+1000,DB_Composite Model,6,1,Store Revenue Time Analysis,179.44765090942383
+1000,DB_Composite Model,6,2,Store Revenue Time Analysis,177.6566505432129
+1000,DB_Composite Model,6,3,Store Revenue Time Analysis,178.4203052520752
+1000,DB_Composite Model,7,1,Slicer,45.06874084472656
+1000,DB_Composite Model,7,2,Slicer,46.67353630065918
+1000,DB_Composite Model,7,3,Slicer,46.08941078186035
+1000,DB_Composite Model,8,1,Slicer,48.734426498413086
+1000,DB_Composite Model,8,2,Slicer,54.98695373535156
+1000,DB_Composite Model,8,3,Slicer,46.94247245788574
+1000,DB_Composite Model,9,1,Catalog Sales Quantity YoY,116.71257019042969
+1000,DB_Composite Model,9,2,Catalog Sales Quantity YoY,117.14768409729004
+1000,DB_Composite Model,9,3,Catalog Sales Quantity YoY,119.85087394714355
+1000,DB_Composite Model,10,1,Store Profit % Split by Category,1998.655080795288
+1000,DB_Composite Model,10,2,Store Profit % Split by Category,2182.8317642211914
+1000,DB_Composite Model,10,3,Store Profit % Split by Category,1825.6869316101074
+1000,DB_Composite Model,11,1,Slicer,47.04451560974121
+1000,DB_Composite Model,11,2,Slicer,45.63021659851074
+1000,DB_Composite Model,11,3,Slicer,46.050071716308594
+1000,DB_Composite Model,12,1,Catalog Revenue Ranked by Promotion,79.69355583190918
+1000,DB_Composite Model,12,2,Catalog Revenue Ranked by Promotion,73.16994667053223
+1000,DB_Composite Model,12,3,Catalog Revenue Ranked by Promotion,73.03667068481445
+1000,DB_Composite Model,13,1,Card,1699.516773223877
+1000,DB_Composite Model,13,2,Card,1823.044776916504
+1000,DB_Composite Model,13,3,Card,1723.9606380462646
+1000,DB_Composite Model,14,1,Store Revenue Time Analysis,10255.212783813477
+1000,DB_Composite Model,14,2,Store Revenue Time Analysis,3147.326707839966
+1000,DB_Composite Model,14,3,Store Revenue Time Analysis,3150.538682937622
+1000,DB_Composite Model,15,1,Slicer,108.4601879119873
+1000,DB_Composite Model,15,2,Slicer,44.98791694641113
+1000,DB_Composite Model,15,3,Slicer,48.37393760681152
+1000,DB_Composite Model,16,1,Slicer,80.56974411010742
+1000,DB_Composite Model,16,2,Slicer,48.26974868774414
+1000,DB_Composite Model,16,3,Slicer,43.161869049072266
+1000,DB_Composite Model,17,1,Slicer,79.0853500366211
+1000,DB_Composite Model,17,2,Slicer,44.05403137207031
+1000,DB_Composite Model,17,3,Slicer,45.54867744445801
+1000,DB_Composite Model,18,1,Slicer,67.34967231750488
+1000,DB_Composite Model,18,2,Slicer,44.79718208312988
+1000,DB_Composite Model,18,3,Slicer,45.94993591308594
+1000,DB_Composite Model,19,1,Catalog Sales Quantity YoY,2336.610794067383
+1000,DB_Composite Model,19,2,Catalog Sales Quantity YoY,2101.985216140747
+1000,DB_Composite Model,19,3,Catalog Sales Quantity YoY,2210.421085357666
+1000,DB_Composite Model,20,1,Store Profit % Split by Category,1875.4327297210693
+1000,DB_Composite Model,20,2,Store Profit % Split by Category,1844.8407649993896
+1000,DB_Composite Model,20,3,Store Profit % Split by Category,1757.737636566162
+1000,DB_Composite Model,21,1,Slicer,62.40725517272949
+1000,DB_Composite Model,21,2,Slicer,45.63307762145996
+1000,DB_Composite Model,21,3,Slicer,46.55957221984863
+1000,DB_Composite Model,22,1,Catalog Revenue Ranked by Promotion,2206.1281204223633
+1000,DB_Composite Model,22,2,Catalog Revenue Ranked by Promotion,1959.9833488464355
+1000,DB_Composite Model,22,3,Catalog Revenue Ranked by Promotion,1961.979866027832
+1000,DB_Composite Model,23,1,Card,2062.1414184570312
+1000,DB_Composite Model,23,2,Card,1694.880723953247
+1000,DB_Composite Model,23,3,Card,1660.4938507080078
+1000,DB_Composite Model,24,1,Store Revenue Time Analysis,2765.4738426208496
+1000,DB_Composite Model,24,2,Store Revenue Time Analysis,2828.0951976776123
+1000,DB_Composite Model,24,3,Store Revenue Time Analysis,2072.8182792663574
+1000,Direct_Query,1,1,Catalog Sales Quantity YoY,22680.828094482422
+1000,Direct_Query,1,2,Catalog Sales Quantity YoY,6843.198776245117
+1000,Direct_Query,1,3,Catalog Sales Quantity YoY,5306.597948074341
+1000,Direct_Query,2,1,Store Profit % Split by Category,6310.9450340271
+1000,Direct_Query,2,2,Store Profit % Split by Category,2378.4055709838867
+1000,Direct_Query,2,3,Store Profit % Split by Category,2043.2250499725342
+1000,Direct_Query,3,1,Slicer,47.61552810668945
+1000,Direct_Query,3,2,Slicer,45.12596130371094
+1000,Direct_Query,3,3,Slicer,45.95756530761719
+1000,Direct_Query,4,1,Catalog Revenue Ranked by Promotion,3426.8171787261963
+1000,Direct_Query,4,2,Catalog Revenue Ranked by Promotion,2111.128568649292
+1000,Direct_Query,4,3,Catalog Revenue Ranked by Promotion,1748.98099899292
+1000,Direct_Query,5,1,Card,5645.962476730347
+1000,Direct_Query,5,2,Card,2327.5275230407715
+1000,Direct_Query,5,3,Card,1883.8074207305908
+1000,Direct_Query,6,1,Store Revenue Time Analysis,9115.92721939087
+1000,Direct_Query,6,2,Store Revenue Time Analysis,7021.280527114868
+1000,Direct_Query,6,3,Store Revenue Time Analysis,8338.286638259888
+1000,Direct_Query,7,1,Slicer,636.1207962036133
+1000,Direct_Query,7,2,Slicer,492.65217781066895
+1000,Direct_Query,7,3,Slicer,516.4730548858643
+1000,Direct_Query,8,1,Slicer,583.0273628234863
+1000,Direct_Query,8,2,Slicer,601.6290187835693
+1000,Direct_Query,8,3,Slicer,483.5989475250244
+1000,Direct_Query,9,1,Catalog Sales Quantity YoY,4445.058345794678
+1000,Direct_Query,9,2,Catalog Sales Quantity YoY,4555.202007293701
+1000,Direct_Query,9,3,Catalog Sales Quantity YoY,4434.475421905518
+1000,Direct_Query,10,1,Store Profit % Split by Category,2180.6118488311768
+1000,Direct_Query,10,2,Store Profit % Split by Category,1863.5892868041992
+1000,Direct_Query,10,3,Store Profit % Split by Category,1776.8750190734863
+1000,Direct_Query,11,1,Slicer,46.02932929992676
+1000,Direct_Query,11,2,Slicer,45.094966888427734
+1000,Direct_Query,11,3,Slicer,44.68941688537598
+1000,Direct_Query,12,1,Catalog Revenue Ranked by Promotion,1962.4361991882324
+1000,Direct_Query,12,2,Catalog Revenue Ranked by Promotion,1805.9072494506836
+1000,Direct_Query,12,3,Catalog Revenue Ranked by Promotion,1758.737325668335
+1000,Direct_Query,13,1,Card,2155.690908432007
+1000,Direct_Query,13,2,Card,1879.8303604125977
+1000,Direct_Query,13,3,Card,1632.814884185791
+1000,Direct_Query,14,1,Store Revenue Time Analysis,5183.741092681885
+1000,Direct_Query,14,2,Store Revenue Time Analysis,6669.98815536499
+1000,Direct_Query,14,3,Store Revenue Time Analysis,6191.900253295898
+1000,Direct_Query,15,1,Slicer,624.7456073760986
+1000,Direct_Query,15,2,Slicer,522.6912498474121
+1000,Direct_Query,15,3,Slicer,506.21700286865234
+1000,Direct_Query,16,1,Slicer,560.3072643280029
+1000,Direct_Query,16,2,Slicer,504.3911933898926
+1000,Direct_Query,16,3,Slicer,531.2204360961914
+1000,Direct_Query,17,1,Slicer,626.539945602417
+1000,Direct_Query,17,2,Slicer,483.3028316497803
+1000,Direct_Query,17,3,Slicer,464.428186416626
+1000,Direct_Query,18,1,Slicer,499.3927478790283
+1000,Direct_Query,18,2,Slicer,529.0484428405762
+1000,Direct_Query,18,3,Slicer,482.2983741760254
+1000,Direct_Query,19,1,Catalog Sales Quantity YoY,4504.646301269531
+1000,Direct_Query,19,2,Catalog Sales Quantity YoY,4760.902643203735
+1000,Direct_Query,19,3,Catalog Sales Quantity YoY,4569.005489349365
+1000,Direct_Query,20,1,Store Profit % Split by Category,1925.208568572998
+1000,Direct_Query,20,2,Store Profit % Split by Category,1818.8953399658203
+1000,Direct_Query,20,3,Store Profit % Split by Category,1883.7568759918213
+1000,Direct_Query,21,1,Slicer,47.358036041259766
+1000,Direct_Query,21,2,Slicer,46.75555229187012
+1000,Direct_Query,21,3,Slicer,44.91615295410156
+1000,Direct_Query,22,1,Catalog Revenue Ranked by Promotion,2224.336624145508
+1000,Direct_Query,22,2,Catalog Revenue Ranked by Promotion,1949.7120380401611
+1000,Direct_Query,22,3,Catalog Revenue Ranked by Promotion,1988.1165027618408
+1000,Direct_Query,23,1,Card,1894.249677658081
+1000,Direct_Query,23,2,Card,1772.047996520996
+1000,Direct_Query,23,3,Card,1632.9240798950195
+1000,Direct_Query,24,1,Store Revenue Time Analysis,5162.866592407227
+1000,Direct_Query,24,2,Store Revenue Time Analysis,5974.831581115723
+1000,Direct_Query,24,3,Store Revenue Time Analysis,6504.830121994019
+1000,fab_dl,1,1,Catalog Sales Quantity YoY,53063.11273574829
+1000,fab_dl,1,2,Catalog Sales Quantity YoY,20324.60045814514
+1000,fab_dl,1,3,Catalog Sales Quantity YoY,22734.289169311523
+1000,fab_dl,2,1,Store Profit % Split by Category,172563.90166282654
+1000,fab_dl,2,2,Store Profit % Split by Category,70185.81223487854
+1000,fab_dl,2,3,Store Profit % Split by Category,66886.46173477173
+1000,fab_dl,3,1,Slicer,288.84387016296387
+1000,fab_dl,3,2,Slicer,130.28240203857422
+1000,fab_dl,3,3,Slicer,84.34462547302246
+1000,fab_dl,4,1,Catalog Revenue Ranked by Promotion,91875.84114074707
+1000,fab_dl,4,2,Catalog Revenue Ranked by Promotion,34633.68725776672
+1000,fab_dl,4,3,Catalog Revenue Ranked by Promotion,53394.84977722168
+1000,fab_dl,5,1,Card,52490.254163742065
+1000,fab_dl,5,2,Card,32022.77183532715
+1000,fab_dl,5,3,Card,62121.35672569275
+1000,fab_dl,6,1,Store Revenue Time Analysis,147243.53528022766
+1000,fab_dl,6,2,Store Revenue Time Analysis,110930.63855171204
+1000,fab_dl,6,3,Store Revenue Time Analysis,113730.33809661865
+1000,fab_dl,7,1,Slicer,778.8996696472168
+1000,fab_dl,7,2,Slicer,122.5881576538086
+1000,fab_dl,7,3,Slicer,622.5981712341309
+1000,fab_dl,8,1,Slicer,73.72879981994629
+1000,fab_dl,8,2,Slicer,90.96765518188477
+1000,fab_dl,8,3,Slicer,371.0365295410156
+1000,fab_dl,9,1,Catalog Sales Quantity YoY,24719.87509727478
+1000,fab_dl,9,2,Catalog Sales Quantity YoY,30005.903005599976
+1000,fab_dl,9,3,Catalog Sales Quantity YoY,43149.51467514038
+1000,fab_dl,10,1,Store Profit % Split by Category,48131.90770149231
+1000,fab_dl,10,2,Store Profit % Split by Category,34557.93213844299
+1000,fab_dl,10,3,Store Profit % Split by Category,190913.0916595459
+1000,fab_dl,11,1,Slicer,205.8999538421631
+1000,fab_dl,11,2,Slicer,79.75649833679199
+1000,fab_dl,11,3,Slicer,4887.248516082764
+1000,fab_dl,12,1,Catalog Revenue Ranked by Promotion,34089.234590530396
+1000,fab_dl,12,2,Catalog Revenue Ranked by Promotion,29322.65067100525
+1000,fab_dl,12,3,Catalog Revenue Ranked by Promotion,58160.65287590027
+1000,fab_dl,13,1,Card,35144.15693283081
+1000,fab_dl,13,2,Card,29625.041961669922
+1000,fab_dl,13,3,Card,30903.54561805725
+1000,fab_dl,14,1,Store Revenue Time Analysis,60700.563192367554
+1000,fab_dl,14,2,Store Revenue Time Analysis,54393.04208755493
+1000,fab_dl,14,3,Store Revenue Time Analysis,101941.40005111694
+1000,fab_dl,15,1,Slicer,111.1764907836914
+1000,fab_dl,15,2,Slicer,102.87976264953613
+1000,fab_dl,15,3,Slicer,290.78149795532227
+1000,fab_dl,16,1,Slicer,97.77045249938965
+1000,fab_dl,16,2,Slicer,108.75964164733887
+1000,fab_dl,16,3,Slicer,84.56635475158691
+1000,fab_dl,17,1,Slicer,109.20095443725586
+1000,fab_dl,17,2,Slicer,80.56640625
+1000,fab_dl,17,3,Slicer,80.77287673950195
+1000,fab_dl,18,1,Slicer,152.4333953857422
+1000,fab_dl,18,2,Slicer,106.27985000610352
+1000,fab_dl,18,3,Slicer,78.36270332336426
+1000,fab_dl,19,1,Catalog Sales Quantity YoY,36710.35814285278
+1000,fab_dl,19,2,Catalog Sales Quantity YoY,62178.20143699646
+1000,fab_dl,19,3,Catalog Sales Quantity YoY,51864.85242843628
+1000,fab_dl,20,1,Store Profit % Split by Category,40202.54373550415
+1000,fab_dl,20,2,Store Profit % Split by Category,76251.04403495789
+1000,fab_dl,20,3,Store Profit % Split by Category,41169.18206214905
+1000,fab_dl,21,1,Slicer,124.73773956298828
+1000,fab_dl,21,2,Slicer,620.7661628723145
+1000,fab_dl,21,3,Slicer,399.33276176452637
+1000,fab_dl,22,1,Catalog Revenue Ranked by Promotion,25873.871326446533
+1000,fab_dl,22,2,Catalog Revenue Ranked by Promotion,59259.63234901428
+1000,fab_dl,22,3,Catalog Revenue Ranked by Promotion,37286.81492805481
+1000,fab_dl,23,1,Card,31706.175088882446
+1000,fab_dl,23,2,Card,71878.75509262085
+1000,fab_dl,23,3,Card,90036.1692905426
+1000,fab_dl,24,1,Store Revenue Time Analysis,77631.15668296814
+1000,fab_dl,24,2,Store Revenue Time Analysis,92257.15589523315
+1000,fab_dl,24,3,Store Revenue Time Analysis,180702.16178894043
