@@ -1,0 +1,39 @@
+UPDATE store_sales 
+SET ss_addr_sk = ss_addr_sk 
+WHERE 1=0; 
+
+UPDATE catalog_sales 
+SET cs_bill_addr_sk = cs_bill_addr_sk 
+WHERE 1=0; 
+
+UPDATE date_dim 
+SET d_date_sk = d_date_sk 
+WHERE 1=0; 
+
+UPDATE ship_mode 
+SET sm_ship_mode_sk = sm_ship_mode_sk 
+WHERE 1=0; 
+
+UPDATE item
+SET i_brand_id = i_brand_id 
+WHERE 1=0; 
+
+UPDATE store
+SET s_store_sk = s_store_sk 
+WHERE 1=0; 
+
+UPDATE customer_address 
+SET ca_address_sk = ca_address_sk 
+WHERE 1=0; 
+
+UPDATE customer_demographics 
+SET cd_demo_sk = cd_demo_sk 
+WHERE 1=0;
+
+UPDATE promotion
+SET p_promo_sk = p_promo_sk
+WHERE 1=0; 
+
+UPDATE catalog_page
+SET cp_catalog_page_sk = cp_catalog_page_sk
+WHERE 1=0;
