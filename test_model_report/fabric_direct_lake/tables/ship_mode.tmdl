@@ -1,0 +1,53 @@
+/// Shipping method dimension containing carrier information and shipping type classifications.
+table ship_mode
+	lineageTag: db1b87b5-f584-4f30-b70e-0eb00c8b45b8
+	sourceLineageTag: [dbo].[ship_mode]
+
+	/// Ship mode surrogate key - unique identifier for each shipping method.
+	column sm_ship_mode_sk
+		dataType: int64
+		formatString: 0
+		lineageTag: 4c485c32-fa22-4df6-b4a8-a8df04e2f730
+		sourceLineageTag: sm_ship_mode_sk
+		summarizeBy: none
+		sourceColumn: sm_ship_mode_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Type or category of shipping method.
+	column sm_type
+		dataType: string
+		lineageTag: c49fc6f8-d030-49a2-8105-6a45d1a81ac2
+		sourceLineageTag: sm_type
+		summarizeBy: none
+		sourceColumn: sm_type
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Internal code for the shipping method.
+	column sm_code
+		dataType: string
+		lineageTag: f54a092d-e847-4cee-84e6-5b813cbf5280
+		sourceLineageTag: sm_code
+		summarizeBy: none
+		sourceColumn: sm_code
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Shipping carrier or company name.
+	column sm_carrier
+		dataType: string
+		lineageTag: aca70983-6b51-4291-83f8-77fac2e381fe
+		sourceLineageTag: sm_carrier
+		summarizeBy: none
+		sourceColumn: sm_carrier
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ship_mode = entity
+		mode: directLake
+		source
+			entityName: ship_mode
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

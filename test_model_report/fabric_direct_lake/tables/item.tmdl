@@ -1,0 +1,109 @@
+/// Product dimension containing item details such as brand, category, class, color, pricing, and manufacturing information.
+table item
+	lineageTag: 0f958ae1-af31-4b29-87a3-7e9ee589887e
+	sourceLineageTag: [dbo].[item]
+
+	/// Item surrogate key - unique identifier for each product.
+	column i_item_sk
+		dataType: int64
+		formatString: 0
+		lineageTag: 23893369-a589-4284-afa3-b1e291864600
+		sourceLineageTag: i_item_sk
+		summarizeBy: none
+		sourceColumn: i_item_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Current retail price of the product.
+	column i_current_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 70b27235-eefb-4732-8e0d-64c9576f0776
+		sourceLineageTag: i_current_price
+		summarizeBy: none
+		sourceColumn: i_current_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Wholesale cost paid for the product.
+	column i_wholesale_cost
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 90cbdd03-df2f-4439-941d-de295ceb5135
+		sourceLineageTag: i_wholesale_cost
+		summarizeBy: none
+		sourceColumn: i_wholesale_cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Brand name of the product.
+	column i_brand
+		dataType: string
+		lineageTag: 0c701039-61ca-4f5f-872b-aab6677ef45c
+		sourceLineageTag: i_brand
+		summarizeBy: none
+		sourceColumn: i_brand
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product class or subcategory within the main category.
+	column i_class
+		dataType: string
+		lineageTag: 5bdf127c-d558-46b2-98e6-0e294148d466
+		sourceLineageTag: i_class
+		summarizeBy: none
+		sourceColumn: i_class
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Product category classification.
+	column i_category
+		dataType: string
+		lineageTag: 138de914-55e9-4a46-b5b9-6707b88a38e9
+		sourceLineageTag: i_category
+		summarizeBy: none
+		sourceColumn: i_category
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Manufacturer or producer of the product.
+	column i_manufact
+		dataType: string
+		lineageTag: e6852c2b-2bc8-4fb1-86cb-d7ebe7c18637
+		sourceLineageTag: i_manufact
+		summarizeBy: none
+		sourceColumn: i_manufact
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Size specification of the product.
+	column i_size
+		dataType: string
+		lineageTag: 0aeb0963-bc02-4389-a3fd-ab7232caaf9c
+		sourceLineageTag: i_size
+		summarizeBy: none
+		sourceColumn: i_size
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Primary color of the product.
+	column i_color
+		dataType: string
+		lineageTag: d6709cb2-852f-485a-a0de-8cdd07941038
+		sourceLineageTag: i_color
+		summarizeBy: none
+		sourceColumn: i_color
+
+		annotation SummarizationSetBy = Automatic
+
+	partition item = entity
+		mode: directLake
+		source
+			entityName: item
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

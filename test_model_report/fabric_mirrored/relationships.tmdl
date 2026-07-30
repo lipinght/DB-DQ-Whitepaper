@@ -1,0 +1,82 @@
+relationship b3bd8d91-ae6b-4489-83cd-34ca2c3213d8
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_bill_addr_sk
+	toColumn: customer_address.ca_address_sk
+
+relationship b727abac-57ca-484a-8183-1b4c10921d84
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_bill_cdemo_sk
+	toColumn: customer_demographics.cd_demo_sk
+
+relationship 41e21761-05b3-410b-960e-54805fb2c4f2
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_catalog_page_sk
+	toColumn: catalog_page.cp_catalog_page_sk
+
+relationship c7ce7218-d702-40d6-94b4-80009e453fe9
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_item_sk
+	toColumn: item.i_item_sk
+
+relationship 4d02a5f5-e67a-4f65-a203-192e1c2ef166
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_promo_sk
+	toColumn: promotion.p_promo_sk
+
+relationship 545e95f8-e63b-4a27-9c91-3cd725ca10e0
+	isActive: false
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_ship_addr_sk
+	toColumn: customer_address.ca_address_sk
+
+relationship 685424a1-f6c7-42d6-8f44-3cccf5f08db4
+	isActive: false
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_ship_cdemo_sk
+	toColumn: customer_demographics.cd_demo_sk
+
+relationship 2e0c0f18-79bf-48f8-be1a-2c53cc33e257
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_ship_mode_sk
+	toColumn: ship_mode.sm_ship_mode_sk
+
+relationship c5edc5f8-f418-44a4-a8aa-caff6e0bef29
+	relyOnReferentialIntegrity
+	fromColumn: catalog_sales.cs_sold_date_sk
+	toColumn: date_dim.d_date_sk_1
+
+relationship 9f8c8977-b8ac-4985-aed9-7711ce5004af
+	isActive: false
+	fromColumn: promotion.p_item_sk
+	toColumn: item.i_item_sk
+
+relationship f824425a-7dd8-4a70-9ee5-2042a74ed97d
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_addr_sk
+	toColumn: customer_address.ca_address_sk
+
+relationship be9c6d5e-0bed-4db1-8558-326d5dfba951
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_cdemo_sk
+	toColumn: customer_demographics.cd_demo_sk
+
+relationship f172b575-b3ce-48a4-b264-2928516104a2
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_item_sk
+	toColumn: item.i_item_sk
+
+relationship 95b347fa-cf7e-4885-8124-86eb2ff56351
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_promo_sk
+	toColumn: promotion.p_promo_sk
+
+relationship c782badb-be54-4423-98b0-22eebad6aa29
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_sold_date_sk
+	toColumn: date_dim.d_date_sk_1
+
+relationship 9e5ca2d3-a5aa-4d43-b00a-07e4a857b1e4
+	relyOnReferentialIntegrity
+	fromColumn: store_sales.ss_store_sk
+	toColumn: store.s_store_sk
+

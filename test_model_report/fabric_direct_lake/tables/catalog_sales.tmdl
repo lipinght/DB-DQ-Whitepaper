@@ -1,0 +1,231 @@
+/// Fact table containing catalog sales transactions with pricing, quantities, profits, and foreign keys to related dimensions.
+table catalog_sales
+	lineageTag: c38e1686-b3a0-473b-8604-8efe0410ea48
+	sourceLineageTag: [dbo].[catalog_sales]
+
+	/// Foreign key to date dimension for sale date.
+	column cs_sold_date_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ac2ce865-caed-4039-bda1-a182c516cfdd
+		sourceLineageTag: cs_sold_date_sk
+		summarizeBy: sum
+		sourceColumn: cs_sold_date_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer demographics dimension for billing customer.
+	column cs_bill_cdemo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 310a5931-6249-4ad7-86b4-7aca5fbc39a9
+		sourceLineageTag: cs_bill_cdemo_sk
+		summarizeBy: sum
+		sourceColumn: cs_bill_cdemo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer address dimension for billing address.
+	column cs_bill_addr_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 51e6cbcf-e98d-4ea9-865e-a500419bec99
+		sourceLineageTag: cs_bill_addr_sk
+		summarizeBy: sum
+		sourceColumn: cs_bill_addr_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer demographics dimension for shipping customer.
+	column cs_ship_cdemo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 4a433af2-d889-41d8-9c6f-1f05f94f0070
+		sourceLineageTag: cs_ship_cdemo_sk
+		summarizeBy: sum
+		sourceColumn: cs_ship_cdemo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to customer address dimension for shipping address.
+	column cs_ship_addr_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 25b41390-6ff3-4f15-b0e6-f26a3da61ef5
+		sourceLineageTag: cs_ship_addr_sk
+		summarizeBy: sum
+		sourceColumn: cs_ship_addr_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to catalog page dimension.
+	column cs_catalog_page_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b01fc3a0-0a51-4660-a5d3-56d28ea386cd
+		sourceLineageTag: cs_catalog_page_sk
+		summarizeBy: sum
+		sourceColumn: cs_catalog_page_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to ship mode dimension.
+	column cs_ship_mode_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 0a85820a-e8f9-41f9-b50e-9610890408e8
+		sourceLineageTag: cs_ship_mode_sk
+		summarizeBy: sum
+		sourceColumn: cs_ship_mode_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to item dimension.
+	column cs_item_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9024dff9-9629-4f0e-abae-0b29f00d568d
+		sourceLineageTag: cs_item_sk
+		summarizeBy: sum
+		sourceColumn: cs_item_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Foreign key to promotion dimension.
+	column cs_promo_sk
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: dbfb7b81-9eef-4b86-aac0-a48cc36d0168
+		sourceLineageTag: cs_promo_sk
+		summarizeBy: sum
+		sourceColumn: cs_promo_sk
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Catalog order number for this transaction.
+	column cs_order_number
+		dataType: int64
+		formatString: 0
+		lineageTag: ccec0342-6144-411f-bc2d-90234bcfb5ac
+		sourceLineageTag: cs_order_number
+		summarizeBy: none
+		sourceColumn: cs_order_number
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Quantity of items ordered in this transaction.
+	column cs_quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 0f5abf99-45b4-495b-bad3-795d0e8e5802
+		sourceLineageTag: cs_quantity
+		summarizeBy: none
+		sourceColumn: cs_quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Wholesale cost per unit for this transaction.
+	column cs_wholesale_cost
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 37d760e7-f755-42e9-9dba-3a28cc211ae7
+		sourceLineageTag: cs_wholesale_cost
+		summarizeBy: none
+		sourceColumn: cs_wholesale_cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// List price per unit at time of order.
+	column cs_list_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 0eda1627-f565-444d-92e5-1a5bb0929e4d
+		sourceLineageTag: cs_list_price
+		summarizeBy: none
+		sourceColumn: cs_list_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Actual sales price per unit (after discounts).
+	column cs_sales_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: eebce86e-da48-4799-8f93-1a8e69de6605
+		sourceLineageTag: cs_sales_price
+		summarizeBy: none
+		sourceColumn: cs_sales_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Extended sales price (sales price × quantity).
+	column cs_ext_sales_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: f0c74fde-bf40-47e4-9352-6bc4d4f219a0
+		sourceLineageTag: cs_ext_sales_price
+		summarizeBy: none
+		sourceColumn: cs_ext_sales_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Extended list price (list price × quantity).
+	column cs_ext_list_price
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 845b8a06-567d-49c0-9455-1a469d81f646
+		sourceLineageTag: cs_ext_list_price
+		summarizeBy: none
+		sourceColumn: cs_ext_list_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Net profit for this transaction (sales price - wholesale cost).
+	column cs_net_profit
+		dataType: decimal
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 341a4a24-e726-4b20-8a50-967f689a5d01
+		sourceLineageTag: cs_net_profit
+		summarizeBy: none
+		sourceColumn: cs_net_profit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	/// Technical column used for cache invalidation in DirectLake mode.
+	column cache_buster
+		dataType: int64
+		formatString: 0
+		lineageTag: 33947ffc-dc12-42ab-af62-5b00c42adf7a
+		sourceLineageTag: cache_buster
+		summarizeBy: none
+		sourceColumn: cache_buster
+
+		annotation SummarizationSetBy = Automatic
+
+	partition catalog_sales = entity
+		mode: directLake
+		source
+			entityName: catalog_sales
+			schemaName: dbo
+			expressionSource: 'DirectLake - tpcds_sf1'
+

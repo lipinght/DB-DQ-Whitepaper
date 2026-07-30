@@ -1,0 +1,114 @@
+/// Calculated measures table containing key business metrics for revenue, quantity, profit, tax, and performance analysis across store and catalog channels.
+table 'Measures 1'
+	lineageTag: ae7cf165-f530-4f98-a4c5-befd958ff771
+
+	/// Revenue from catalog sales channel only, based on extended sales price
+	measure 'Catalog Revenue' = SUM('catalog_sales'[cs_ext_sales_price])
+		formatString: $#,0
+		displayFolder: 01. Revenue
+		lineageTag: bed34121-c406-4e25-b931-6ea438aede2a
+
+	/// Revenue from store sales channel only, based on extended sales price
+	measure 'Store Revenue' = SUM('store_sales'[ss_ext_sales_price])
+		formatString: $#,0
+		displayFolder: 01. Revenue
+		lineageTag: 1755e841-2eeb-4e1e-9a98-c860eb583a79
+
+	/// Total units sold through catalog sales channel
+	measure 'Catalog Sales Quantity' = SUM('catalog_sales'[cs_quantity])
+		formatString: #,0
+		displayFolder: 02. Quantity
+		lineageTag: 6da96e65-1eb2-4e76-afdb-50d9106f56c1
+
+	/// Net profit from store sales channel only
+	measure 'Store Net Profit' = SUM('store_sales'[ss_net_profit])
+		formatString: $#,0
+		displayFolder: 03. Profit
+		lineageTag: a5a04305-c986-4791-925e-b9115939e453
+
+	/// Number of unique customers who made store purchases
+	measure 'Store Distinct Customers' = DISTINCTCOUNT('store_sales'[ss_customer_sk])
+		formatString: #,0
+		displayFolder: 04. Distinct Counts
+		lineageTag: ace0485f-176a-4401-bb53-41c99ce5c356
+
+	/// Total revenue from beginning of year to current date selection
+	measure 'Store Revenue YTD' = TOTALYTD([Store Revenue],'tpcds_calendar')
+		formatString: $#,0
+		displayFolder: 06. Time Intelligence
+		lineageTag: 0e0dbb36-1e75-4c77-8b7f-9a462a143dcb
+
+	/// Revenue for the same period in the previous year
+	measure 'Store Revenue Same Period LY' =
+			
+			CALCULATE(
+			    [Store Revenue],
+			    SAMEPERIODLASTYEAR('tpcds_calendar')
+			)
+		formatString: $#,0
+		displayFolder: 06. Time Intelligence
+		lineageTag: 303dbdc1-0484-496c-b14f-a41b0ef53f82
+
+	/// Revenue for the same period in the previous year
+	measure 'Store Revenue YoY' =
+			VAR CurrentYearRev = [Store Revenue]
+			VAR PreviousYearRev = [Store Revenue Same Period LY]
+			RETURN
+			    DIVIDE(CurrentYearRev - PreviousYearRev, PreviousYearRev, 0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 06. Time Intelligence
+		lineageTag: 39648465-7aac-4652-8c2f-d6599df15204
+
+	/// Catalog Sales Same Period LY
+	measure 'Catalog Sales Same Period LY' =
+			
+			CALCULATE(
+			    [Catalog Sales Quantity],
+			    SAMEPERIODLASTYEAR('tpcds_calendar')
+			)
+		formatString: 0
+		displayFolder: 06. Time Intelligence
+		lineageTag: d1d5179d-688b-487c-8638-81780d95eb05
+
+	/// Catalog Sales YoY
+	measure 'Catalog Sales YoY' =
+			VAR CurrentYearCatSales = [Catalog Sales Quantity]
+			VAR PreviousYearCatSales = [Catalog Sales Same Period LY]
+			RETURN
+			    DIVIDE(CurrentYearCatSales - PreviousYearCatSales, PreviousYearCatSales, 0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 06. Time Intelligence
+		lineageTag: 0bc09d6d-1bdd-4f7e-ac26-a12e87ccf67d
+
+	/// Store Profit % by Item Category
+	measure 'Store Profit % by Item Category' = ```
+			
+			VAR CurrentProfit = [Store Net Profit]
+			VAR TotalProfitAllCategories = 
+			    CALCULATE(
+			        [Store Net Profit],
+			        ALLEXCEPT(
+			            'item',
+			            'item'[i_brand],
+			            'item'[i_manufact]
+			        )
+			    )
+			RETURN
+			    DIVIDE(CurrentProfit, TotalProfitAllCategories, 0)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: 05. Advanced % Share
+		lineageTag: 04f417ef-ba48-4d9e-873d-76d516ec3a54
+
+	/// Dummy
+	column Dummy
+		formatString: 0
+		lineageTag: c1dfb904-84a8-4dfc-a768-d5e10f70f255
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Dummy]
+
+	partition 'Measures 1' = calculated
+		mode: import
+		source = ROW("Dummy", 1)
+

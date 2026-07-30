@@ -1,0 +1,52 @@
+/// Field parameter table for dynamic time unit selection in reports, supporting Year and Quarter groupings.
+table 'Time Unit'
+	lineageTag: c100712f-ebcb-4d0f-a435-e1a4c8ce3229
+
+	/// Display name for the time unit selection (Year, Quarter).
+	column 'Time Unit'
+		lineageTag: bd5d5ab0-6269-4df0-bd39-9616f6e2b7d5
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Time Unit Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Time Unit Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	/// DAX column reference for the selected time unit.
+	column 'Time Unit Fields'
+		isHidden
+		lineageTag: 4be3ced6-f4db-40c4-84b2-5ef9decf7fee
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Time Unit Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Sort order for time unit options in field parameter.
+	column 'Time Unit Order'
+		isHidden
+		formatString: 0
+		lineageTag: 36566b71-2a4f-4ddb-86c0-b4c7b3d8ab7f
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Time Unit' = calculated
+		mode: import
+		source =
+				{
+				    ("Year", NAMEOF('date_dim'[d_year]), 0),
+				    ("Quarter", NAMEOF('date_dim'[d_quarter_name]), 1)
+				}
+
+	annotation PBI_Id = 706957f972f8497896950148d2d5f0af
+
